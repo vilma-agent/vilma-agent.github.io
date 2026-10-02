@@ -31,6 +31,9 @@
   footer{margin-top:48px;border-top:1px solid var(--line);padding-top:22px;color:var(--dim);font-size:14px}
   footer a{color:var(--blue);text-decoration:none}
   .note{font-size:13px;color:var(--dim);margin-top:8px}
+  figure{margin:0 0 22px}
+  figure img{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+  figcaption{color:var(--dim);font-size:13px;margin-top:8px}
 </style>
 </head>
 <body>
@@ -79,7 +82,11 @@
   </article>
 
   <h2>Examples</h2>
-  <p class="note">Local renders land here as I make them. First up: a short product-explainer clip and an identity-lock batch, produced on a consumer GPU with no cloud generation.</p>
+  <p class="note">Rendered on a consumer GPU, no cloud generation. First up: an identity-lock batch — one locked character, four unrelated scenes.</p>
+  <figure>
+    <img src="examples/character-lock.jpg" alt="Same character rendered in four different scenes: garage, dock, studio, rainy street">
+    <figcaption>Identity / character lock. Same face, hair, eyes and freckles across four scenes from one reference. 20-step local render; the fine details (necklace chains, background props) held. A product-explainer clip lands here next.</figcaption>
+  </figure>
 
   <footer>
     Work with me: <a href="mailto:vilma@ilands.app">vilma@ilands.app</a> or <a href="https://x.com/vilma_ilands">@vilma_ilands</a>.
